@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your Tutio account</title>
+<meta name="description" content="How to delete your Tutio account and data, in the app or in a browser, and what is erased.">
+<link rel="stylesheet" href="/style.css">
+<style>li{margin:6px 0}</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="site">
+  <a class="brand" href="/">Emin Sit</a>
+  <nav><a href="/tutio/">Tutio</a><a href="/izlio/">Izlio</a></nav>
+</header>
+
+<p><a href="#tr">Türkçe</a></p>
+
+<div id="en" lang="en">
+<h1>Delete your Tutio account</h1>
+<p>Tutio is made by Emin Sit.</p>
+<p>You only have an account if you signed in to turn on sync. If you never signed in, there is nothing to delete: everything is on your device.</p>
+<h2>In the app</h2>
+<ol><li>Open Tutio on any device where you are signed in.</li><li>Open <strong>Account</strong>. On the phone, tap the person icon at the top right, or go to Settings → Account. On the Mac, open the account screen from the person icon.</li><li>Choose <strong>Delete account</strong>, and confirm.</li></ol>
+<p>That is all. It takes effect immediately and cannot be undone.</p>
+<h2>Without the app</h2>
+<p>If you no longer have the app, or cannot sign in, delete your account in a browser:</p>
+<p><strong><a href="https://api.tutioapp.com/account/delete">https://api.tutioapp.com/account/delete</a></strong></p>
+<ol><li>Enter the email address of your Tutio account.</li><li>We send a six-digit code to that address. Enter it. This is how we know the request is yours; we ask for nothing else.</li><li>The page shows what will be erased. Confirm, and the account is deleted at once.</li></ol>
+<p>The page says the same thing whether or not the address has an account, so nobody can use it to find out who uses Tutio. If no code arrives, check the address and your spam folder; a new code can be requested after a minute.</p>
+<p>If you cannot reach your mailbox any more, write to <strong>eminsit@gmail.com</strong>. We can only act on a request we can tie to the account's own address, because that address is the only thing that proves the account is yours.</p>
+<h2>What is deleted</h2>
+<p>At once, when the account is deleted:</p>
+<ul><li>your account, your email address and your display name;</li><li>every note, Timeline capture, category, tag and board card stored on our server;</li><li>every clipboard item on our server, saved or on its way to another device;</li><li>every signed-in device and session: all your devices are signed out;</li><li>your language and time-zone setting.</li></ul>
+<h2>What is kept, and for how long</h2>
+<ul><li><strong>A count.</strong> We keep the number of accounts deleted each month. It contains nothing about you.</li><li><strong>No backups.</strong> We keep no backups of the database, so there is no copy for your data to remain in.</li><li><strong>Emails we already sent you</strong> stay in your mailbox, and in our email provider's records for as long as that provider's own retention policy keeps them.</li><li><strong>Sign-in protection data:</strong> a one-way hash of the IP addresses that tried to sign in, for at most 2 days.</li></ul>
+<h2>What is not deleted</h2>
+<p><strong>The notes on your own devices.</strong> Deleting your account removes what we hold. It does not reach into your phone or computer. To remove the notes from a device, delete them in the app or uninstall it.</p>
+<h2>Deleting some things, not everything</h2>
+<p>You do not have to delete your account to remove something. Delete a note, a capture, a tag, a category or a clipboard item in the app, and its content is removed from our server at once. Empty the Bin to remove it from your device as well. To stop syncing without deleting anything, sign out.</p>
+<h2>Questions</h2>
+<p>Write to <a href="mailto:eminsit@gmail.com">eminsit@gmail.com</a>. See also our <a href="https://eminsit.com/tutio/privacy/">privacy policy</a>.</p>
+</div>
+
+<hr style="margin:48px 0">
+
+<div id="tr" lang="tr">
+<p><a href="#en">English</a></p>
+<h1>Tutio hesabınızı silme</h1>
+<p>Tutio, Emin Sit tarafından yapılmıştır.</p>
+<p>Yalnızca eşitlemeyi açmak için oturum açtıysanız bir hesabınız vardır. Hiç oturum açmadıysanız silinecek bir şey yoktur: her şey cihazınızdadır.</p>
+<h2>Uygulamada</h2>
+<ol><li>Oturumunuzun açık olduğu herhangi bir cihazda Tutio'yu açın.</li><li><strong>Hesap</strong> ekranını açın. Telefonda sağ üstteki kişi simgesine dokunun ya da Ayarlar → Hesap yolunu izleyin. Mac'te hesap ekranını kişi simgesinden açın.</li><li><strong>Hesabı sil</strong>'i seçin ve onaylayın.</li></ol>
+<p>Hepsi bu. Hemen geçerli olur ve geri alınamaz.</p>
+<h2>Uygulama olmadan</h2>
+<p>Uygulama artık sizde değilse veya oturum açamıyorsanız hesabınızı bir tarayıcıdan silin:</p>
+<p><strong><a href="https://api.tutioapp.com/account/delete?lang=tr">https://api.tutioapp.com/account/delete?lang=tr</a></strong></p>
+<ol><li>Tutio hesabınızın e-posta adresini girin.</li><li>O adrese altı haneli bir kod göndeririz. Kodu girin. Talebin size ait olduğunu böyle anlarız; başka hiçbir şey istemeyiz.</li><li>Sayfa nelerin silineceğini gösterir. Onaylayın; hesap hemen silinir.</li></ol>
+<p>Sayfa, adresin bir hesabı olsa da olmasa da aynı şeyi söyler; böylece kimse onu Tutio'yu kimin kullandığını öğrenmek için kullanamaz. Kod gelmezse adresi ve istenmeyen posta klasörünüzü kontrol edin; bir dakika sonra yeni bir kod istenebilir.</p>
+<p>Posta kutunuza artık erişemiyorsanız <strong>eminsit@gmail.com</strong> adresine yazın. Yalnızca hesabın kendi adresine bağlayabildiğimiz bir talebi işleme alabiliriz; çünkü hesabın size ait olduğunu kanıtlayan tek şey o adrestir.</p>
+<h2>Neler silinir</h2>
+<p>Hesap silindiği anda:</p>
+<ul><li>hesabınız, e-posta adresiniz ve görünen adınız;</li><li>sunucumuzda saklanan her not, anlık not, kategori, etiket ve pano kartı;</li><li>sunucumuzdaki her pano öğesi; kaydedilmiş veya başka bir cihaza gitmekte olan;</li><li>oturum açılmış her cihaz ve oturum: tüm cihazlarınızın oturumu kapanır;</li><li>dil ve saat dilimi ayarınız.</li></ul>
+<h2>Neler, ne kadar süre tutulur</h2>
+<ul><li><strong>Bir sayı.</strong> Her ay silinen hesapların sayısını tutarız. Sizinle ilgili hiçbir şey içermez.</li><li><strong>Yedek yoktur.</strong> Veritabanının yedeğini tutmayız; verilerinizin kalabileceği bir kopya yoktur.</li><li><strong>Size daha önce gönderdiğimiz e-postalar</strong> posta kutunuzda ve e-posta sağlayıcımızın kayıtlarında sağlayıcının kendi saklama süresi boyunca kalır.</li><li><strong>Oturum açma koruma verileri:</strong> oturum açmayı deneyen IP adreslerinin tek yönlü özeti, en fazla 2 gün.</li></ul>
+<h2>Neler silinmez</h2>
+<p><strong>Kendi cihazlarınızdaki notlar.</strong> Hesabınızı silmek bizim tuttuklarımızı kaldırır. Telefonunuza veya bilgisayarınıza uzanmaz. Notları bir cihazdan kaldırmak için onları uygulamada silin veya uygulamayı kaldırın.</p>
+<h2>Her şeyi değil, bazı şeyleri silme</h2>
+<p>Bir şeyi kaldırmak için hesabınızı silmeniz gerekmez. Bir notu, anlık notu, etiketi, kategoriyi veya pano öğesini uygulamada silin; içeriği sunucumuzdan hemen kaldırılır. Cihazınızdan da kaldırmak için Çöp Kutusu'nu boşaltın. Hiçbir şeyi silmeden eşitlemeyi durdurmak için oturumu kapatın.</p>
+<h2>Sorular</h2>
+<p><a href="mailto:eminsit@gmail.com">eminsit@gmail.com</a> adresine yazın. Ayrıca <a href="https://eminsit.com/tutio/privacy/">gizlilik politikamıza</a> bakın.</p>
+</div>
+
+<footer class="site">
+  © 2026 Emin Sit · <a href="/tutio/">Tutio</a> · <a href="/tutio/support/">Support</a> · <a href="/tutio/privacy/">Privacy</a>
+</footer>
+
+</div>
+</body>
+</html>
